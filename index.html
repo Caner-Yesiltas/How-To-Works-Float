@@ -17,32 +17,63 @@
       }
       .Header {
         background-color: blue;
+        width: 100%;
+        height: 8vw;
+        float: left;
+        text-align: center;
+        line-height: 8vw;
       }
 
       .Nav {
         background-color: coral;
+        width: 100%;
+        height: 8vw;
+        float: left;
+        text-align: center;
+        line-height: 8vw;
       }
 
       .Main {
         background-color: darkgreen;
+        width: 70%;
+        height: 20vw;
+        float: right;
       }
 
       .Aside {
         background-color: aqua;
+        width: 30%;
+        height: 20vw;
+        float: right;
       }
 
       .Footer {
+        width: 100%;
+        height: 10vw;
         background-color: deeppink;
+        float: left;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      h1 {
+        border: 3px solid black;
       }
     </style>
   </head>
 
   <body>
-    <div class="Container"></div>
-    <div class="Header"></div>
-    <div class="Nav"></div>
-    <div class="Main"></div>
-    <div class="Aside"></div>
-    <div class="Footer"></div>
+    <div class="Container">
+      <div class="Header"><h1>Header</h1></div>
+      <div class="clear"></div>
+      <div class="Nav"><h2>Nav</h2></div>
+      <div class="clear"></div>
+      <div class="Main"></div>
+      <div class="Aside"></div>
+      <div class="clear"></div>
+      <div class="Footer"></div>
+    </div>
   </body>
 </html>
